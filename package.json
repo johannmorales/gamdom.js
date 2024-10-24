@@ -8,9 +8,14 @@
     "build/src"
   ],
   "keywords": [
-    "kick",
-    "api"
+    "gamdom",
+    "api",
+    "slots"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johannmorales/gamdom.js.git"
+  },
   "author": "Johann Morales",
   "license": "MIT",
   "scripts": {
