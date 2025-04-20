@@ -8,7 +8,7 @@ export interface Game {
   gamesList: GamesList[];
 }
 
-export interface GamesList {
+export interface StaticData {
   game_code: string;
   game_id: any;
   url_thumb: string;
@@ -47,6 +47,10 @@ export interface GamesList {
   priority: number;
   allowed_currencies: any;
   provider_name: string;
+}
+
+export interface GamesList {
+  staticData: StaticData;
   isLiked: any;
   countrySupport: boolean;
 }
